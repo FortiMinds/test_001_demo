@@ -1,0 +1,19 @@
+version: 1
+
+repository:
+  name: "test_001_demo"
+  full_name: "FortiMinds/test_001_demo"
+  branch: "test_br"
+
+business_application:
+  name: "test_001_demo"
+  criticality: "HIGH"
+
+veracode:
+  profile_name: "test_001_demo"
+  policy_name: "Sysco Very High and High Vulnerability Protect"
+  app_guid: "45a635b9-d79b-4034-952f-d0bea5a2a526"
+
+vista:
+  managed: true
+  generated_by: "fortiminds-vista"
